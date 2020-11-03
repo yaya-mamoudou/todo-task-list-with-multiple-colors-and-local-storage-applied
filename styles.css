@@ -6,7 +6,7 @@ body {
     background-position: 90deg;
   }
   :root {
-    --containerHight: 60vh;
+    --containerHight: 80vh;
   }
 
   .list::-webkit-scrollbar {
@@ -30,7 +30,7 @@ body {
   }
   form {
     margin: auto auto;
-    width: var(--containerHight);
+    width: 70vw;
     height: var(--containerHight);
     border: #ccc solid;
     text-align: center;
@@ -60,7 +60,7 @@ body {
     border-bottom: solid 1px #ccc;
   }
   .list {
-    height: calc(var(--containerHight) - 8.7rem);
+    height: calc(var(--containerHight) - 10.8rem);
     overflow-y: auto;
     position: relative;
     width: 100%;
@@ -70,7 +70,7 @@ body {
   li {
     width: 70%;
     margin: 2px auto;
-    padding: 1rem;
+    padding: 0.5rem;
     list-style: none;
     color: white;
     text-align: left;
